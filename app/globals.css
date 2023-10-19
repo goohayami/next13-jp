@@ -7,15 +7,26 @@ h1 {
   color: grey;
 }
 
+h3 {
+  text-align: left;
+  margin-bottom: 0;
+  color: rgb(188, 151, 158);
+}
+
 .main-container {
-  width: 750px;
+  width: 800px;
   margin: 0 auto;
   text-align: center;
   background-color: white;
-  padding: 24px;
+  padding: 60px;
   border-radius: 5px;
 }
 
 p {
   text-align: left;
+  line-height: 2rem;
+}
+
+.dot {
+  border-top: 2px dotted rgb(202, 191, 191);
 }
